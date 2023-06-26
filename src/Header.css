@@ -1,0 +1,48 @@
+/* Header container */
+.header {
+  background-color: beige;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: brown;
+}
+
+/* Navigation menu */
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin-right: 10px;
+  list-style-type: none; /* Remove bullet points */
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
+
+.nav a {
+  text-decoration: none;
+  color: brown;
+}
+
+.nav a:hover {
+  color: #8b4513; /* Darker brown on hover */
+}
